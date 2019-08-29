@@ -136,7 +136,6 @@ table {
 }
 
 body {
-   background: #8a8b8f;
 	font: 15px/30px opensans-regular, sans-serif;
 	color: #fff;
    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
