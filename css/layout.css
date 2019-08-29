@@ -1113,7 +1113,8 @@ footer .social-links li:first-child { margin-left: 0; }
 
    /* intro section
    -------------------------------------------------------------------- */
- #intro h2 { font: 48px/66px montserrat-regular, Sans-serif; }
+ #intro h2 { font: 48px/66px montserrat-regular, Sans-serif; 
+ margin-top:80px;}
 
    /* services section
    -------------------------------------------------------------------- */
@@ -1486,8 +1487,10 @@ footer .social-links li:first-child { margin-left: 0; }
 
    /* intro section
    ------------------------------------------------------------------------- */
-   #intro h2 { font: 32px/42px montserrat-regular, sans-serif;
-	margin-top: 108px; margin-bottom: 36px;   }
+   #intro {height:275px;}
+  
+   #intro h2 { font: 28px/38px montserrat-regular, sans-serif;
+	margin-top: 50px;}
 
     /* journal section
    ------------------------------------------------------------------------- */
