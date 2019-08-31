@@ -35,15 +35,13 @@
 	function toggle() {
 	  if(visible) {
 		visible = false;
-		document.getElementById("showText").innerHTML = 'Show more...';
+		document.getElementById("showText").innerHTML = 'Read More';
 		document.getElementById("hiddenText").style.display = 'none';
 	  } else {
 		visible = true;
 		document.getElementById("showText").innerHTML = 'Read Less';
 		document.getElementById("hiddenText").style.display = 'block';
-	  }
-	  
-	  
+	  }	  	  
 }
 
 	visible2 = false; //var that keeps track if the content is visible.
@@ -86,8 +84,7 @@
 	               <li><a href="#services">Mission</a></li>
 	               <li><a href="#portfolio">Services</a></li>
 	               <li><a href="#journal">About Us</a></li>
-                  <!--<li><a href="#about">Testimonials</a></li>-->
-                  <li><a href="#contact">Contact</a></li>
+                   <li><a href="#contact">Contact</a></li>
                </ul>
 
             </nav>
@@ -104,7 +101,7 @@
    <section id="intro">     
 		<div class="row">
 			<div class="col full">
-				<h2>Digital transformation through <span>Robotic Process Automation</span> and Data Analytics</h2>
+				<h2>Digital transformation through <span>Robotic Process Automation</span> and <span>Data Analytics</span></h2>
 			</div>
 		</div>
    </section> <!-- Intro Section End-->
@@ -120,7 +117,7 @@
 				<script type='text/javascript' src='https://libs.a2zinc.net/Common/JS/10.6.0.0/a2zWidget.js'></script><script type='text/javascript' id='exWidget'>new a2z.Widget('gM%2bM1z2efQdG%2b80vAgrVYldily4MF7jwI%2bvoQf0xjKDx%2ff%2f3oqsywXi%2fTjKM5ggR',845281,'https://libs.a2zinc.net/Common/Widgets/ExhibitorBadge.aspx',1318,726262,330,200).render();</script>
 			</div-->
 
-             <p class="intro">We strive to build a professional and a personal relations based on core values of trust, integrity,
+             <p class="intro">We strive to build professional and personal relations based on core values of trust, integrity,
 				longevity by understanding the needs of our customers.</p>
 
 			 <p class="intro">With our diverse international and domestic backgrounds, our primary focus is to have an ethical and professional
@@ -173,7 +170,8 @@
 
 			<div class="intro" id="hiddenText" style="display:none;">
 				<p>Our professionals combine technology, business and industry expertise to build and deploy solutions
-				to realize results for our clients and their customers.</p>							
+				to realize results for our clients and their customers.</p>
+				<p>We also have an <a href="http://www.hutify.com" target=_blank>Bot Store</a> for pre-built RPA bots. </p>
 			</div>
 			<div id="showText" onclick='toggle()' style="cursor:pointer;" class="intro">Read More</div>
          </div>
@@ -194,18 +192,14 @@
       <div class="row">
          <aside class="col g-5">
             <p>
-            InvenCubator Pvt Ltd <br />
-			B3 Ganpati Enclave<br /> 
-			Near Anchor Mall<br />
-			Ajmer Road, Jaipur 302006 <br />
+            Inven Cubator Private Limited <br />
+			C106 D, Niti marg, Ipsa<br>
+			Bajaj Nagar, Jaipur 302015<br /> 
             Rajasthan, India			
             </p>
 
             <div class="mrTp5 font13">
-				<img alt="" src="images/phone_icon.png" class="vAlign mrRt5" width="30" height="30">TBD
-			</div>
-			<div class="mrTp5 font13">
-				<img alt="" src="images/whatsapp_icon.png" class="vAlign mrRt5" width="30" height="30">TBD
+				<img alt="" src="images/phone_icon.png" class="vAlign mrRt5" width="30" height="30">0141-4106812
 			</div>
 			<div class="mrTp5 font13">
 				<img alt="" src="images/email_icon.png" class="vAlign mrRt5" width="30" height="30">info@invencubator.com
@@ -238,12 +232,6 @@
             </ul>
          </div>
 
-         <div class="col g-5 pull-right">
-            <ul class="social-links">
-               <li><a href="https://www.facebook.com/pg/Acubeworldwide" target="_blank"><i class="icon-facebook"></i></a></li>
-            </ul>
-         </div>
-
       </div>
 
    </footer> <!-- Footer End-->
@@ -259,7 +247,7 @@
    <script src="js/jquery.reveal.js"></script>
     <script>
       function initMap() {
-        var uluru = {lat: 26.9109, lng: 75.7831};
+        var uluru = {lat: 26.8752, lng: 75.8002};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 15,
           center: uluru
